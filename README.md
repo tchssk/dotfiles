@@ -1,4 +1,5 @@
 cd ~  
 git clone git@github.com:taichisasaki/dotfiles.git .dotfiles  
-chmod +x ./.dotfiles/setup.sh  
-./.dotfiles/setup.sh
+cd .dotfiles  
+chmod +x ./setup.sh  
+./setup.sh
