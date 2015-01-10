@@ -150,9 +150,9 @@ if &t_Co > 2 || has("gui_running")
 endif
 
 " カラースキームを読み込む
-let g:solarized_termcolors = 256
-let g:solarized_contrast = 'high'
-colorscheme solarized
+"let g:solarized_termcolors = 256
+"let g:solarized_contrast = 'high'
+"colorscheme solarized
 
 
 " ---------------------------------------------------------------------
