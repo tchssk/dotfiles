@@ -159,23 +159,33 @@ colorscheme solarized
 " Plugin: "{{{1
 " ---------------------------------------------------------------------
 " neobundle.vim
+if !1 | finish | endif
+
 if has('vim_starting')
+  if &compatible
+    set nocompatible
+  endif
+
   set runtimepath+=$MYVIMDIR/bundle/neobundle.vim/
 endif
 
-call neobundle#rc(expand($MYVIMDIR . '/bundle/'))
+call neobundle#begin(expand($MYVIMDIR . '/bundle/'))
+
 NeoBundleFetch 'Shougo/neobundle.vim'
-NeoBundle 'groenewege/vim-less'
+NeoBundle 'Shougo/vimproc.vim', {
+\ 'build' : {
+\     'windows' : 'tools\\update-dll-mingw',
+\     'cygwin' : 'make -f make_cygwin.mak',
+\     'mac' : 'make -f make_mac.mak',
+\     'linux' : 'make',
+\     'unix' : 'gmake',
+\    },
+\ }
 NeoBundle 'Shougo/unite.vim'
-NeoBundle 'Shougo/vimfiler'
-NeoBundle 'Shougo/vimproc', {
-      \ 'build' : {
-      \     'windows' : 'make -f make_mingw32.mak',
-      \     'cygwin' : 'make -f make_cygwin.mak',
-      \     'mac' : 'make -f make_mac.mak',
-      \     'unix' : 'make -f make_unix.mak',
-      \    },
-      \ }
+NeoBundle 'Shougo/vimfiler.vim'
+NeoBundle 'groenewege/vim-less'
+
+call neobundle#end()
 
 " vimfiler.vim
 let g:vimfiler_safe_mode_by_default = 0	" セーフモードを無効にした状態で起動する
