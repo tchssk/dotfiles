@@ -1,0 +1,6 @@
+.DS_Store
+
+.vim/backup/
+.vim/doc/
+.vim/bundle/*
+!.vim/bundle/neobundle.vim
