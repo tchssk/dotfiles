@@ -184,6 +184,7 @@ NeoBundle 'Shougo/vimproc.vim', {
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/vimfiler.vim'
 NeoBundle 'groenewege/vim-less'
+NeoBundle 'altercation/vim-colors-solarized'
 
 call neobundle#end()
 
