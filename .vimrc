@@ -185,12 +185,16 @@ NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/vimfiler.vim'
 NeoBundle 'groenewege/vim-less'
 NeoBundle 'altercation/vim-colors-solarized'
+NeoBundle 'scrooloose/syntastic'
 
 call neobundle#end()
 
 " vimfiler.vim
 let g:vimfiler_safe_mode_by_default = 0	" セーフモードを無効にした状態で起動する
 
+" syntastic
+let g:syntastic_check_on_open=1
+let g:syntastic_check_on_wq=0
 
 " ---------------------------------------------------------------------
 " Filetype: "{{{1
