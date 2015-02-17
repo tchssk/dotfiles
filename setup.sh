@@ -15,6 +15,7 @@ done
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install brew-cask
 brew install git
+brew install hub
 brew install scala
 brew cask install dropbox
 brew cask install firefox
