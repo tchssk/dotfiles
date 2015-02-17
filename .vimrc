@@ -42,6 +42,8 @@ for path in split(glob($VIM.'/plugins/*'), '\n')
   if isdirectory(path) | let &runtimepath = &runtimepath.','.path | end
 endfor
 
+set undodir=$MYVIMDIR/undo
+
 
 " ------------------------------------------------
 " バックアップの設定 "{{{2
