@@ -1,5 +1,6 @@
 tap 'caskroom/cask'
 brew 'git'
+brew 'go'
 brew 'hub'
 brew 'scala'
 cask 'ccleaner'
