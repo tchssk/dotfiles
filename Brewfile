@@ -1,5 +1,6 @@
 tap 'caskroom/cask'
 brew 'git'
+brew 'git-flow'
 brew 'go'
 brew 'hub'
 brew 'scala'
