@@ -11,11 +11,15 @@ GIT_PS1_SHOWDIRTYSTATE=true
 # Java
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 
+# Go
+export GOPATH=~/Developer/go
+
 # Prompt
 export PS1='\[\033[40;0;33m\]\W/ \[\033[40;1;32m\]$(__git_ps1)\[\033[0m\] $ '
 
 # Path
 export PATH=/usr/local/sbin:$PATH
+export PATH=$GOPATH/bin:$PATH
 
 # tmux
 if [ -z "$TMUX" -a -z "$STY" ]; then
