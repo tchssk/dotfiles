@@ -2,6 +2,7 @@
 alias ll="ls -lh"
 alias la="ls -la"
 alias up="cd ..; ls -lh"
+alias tree="tree -a -I .git"
 
 # Git
 test -r /usr/local/etc/bash_completion.d/git-prompt.sh && . /usr/local/etc/bash_completion.d/git-prompt.sh
