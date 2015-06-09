@@ -190,7 +190,7 @@ NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'nsf/gocode', {'rtp': 'vim/'}
-NeoBundle 'fatih/vim-go'
+NeoBundle 'vim-jp/vim-go-extra'
 
 call neobundle#end()
 
