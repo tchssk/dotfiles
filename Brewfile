@@ -1,6 +1,7 @@
 brew 'ant'
 brew 'boot2docker'
 brew 'brew-cask'
+brew 'ctags'
 brew 'docker'
 brew 'git'
 brew 'git-flow'
