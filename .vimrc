@@ -192,6 +192,7 @@ NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'nsf/gocode', {'rtp': 'vim/'}
 NeoBundle 'vim-jp/vim-go-extra'
 NeoBundle 'majutsushi/tagbar'
+NeoBundle 'dgryski/vim-godef'
 
 call neobundle#end()
 
