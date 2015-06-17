@@ -1,7 +1,9 @@
 set noexpandtab
 set tabstop=4
 set shiftwidth=4
+set updatetime=10
 
+let g:tagbar_left = 1
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
     \ 'kinds'     : [
