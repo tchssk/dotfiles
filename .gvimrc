@@ -96,7 +96,7 @@ endif
 if has('win32')
   colorscheme solarized
 elseif has('mac')
-  colorscheme desert
+  colorscheme hybrid
 endif
 
 
