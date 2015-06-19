@@ -193,6 +193,8 @@ NeoBundle 'nsf/gocode', {'rtp': 'vim/'}
 NeoBundle 'vim-jp/vim-go-extra'
 NeoBundle 'majutsushi/tagbar'
 NeoBundle 'dgryski/vim-godef'
+NeoBundle 'tomasr/molokai'
+NeoBundle 'w0ng/vim-hybrid'
 
 call neobundle#end()
 
