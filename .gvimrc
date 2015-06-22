@@ -17,6 +17,12 @@ gui
 " ツールバーを表示しない
 set guioptions-=T
 
+" スクロールバーを表示しない
+set guioptions-=r
+set guioptions-=R
+set guioptions-=l
+set guioptions-=L
+
 " ------------------------------------------------
 " 検索の設定 "{{{2
 " ------------------------------------------------
