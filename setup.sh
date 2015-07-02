@@ -28,3 +28,6 @@ then
 else
   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
+
+# pip
+pip install -r requirements.txt
