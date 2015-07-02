@@ -1,0 +1,9 @@
+backports.ssl-match-hostname==3.4.0.2
+certifi==2015.4.28
+circus==0.12.0
+iowait==0.2
+mercurial==3.4.2
+psutil==3.0.1
+pyzmq==14.7.0
+tornado==4.2
+vboxapi==1.0
