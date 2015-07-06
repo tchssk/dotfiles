@@ -2,7 +2,9 @@ set noexpandtab
 set tabstop=4
 set shiftwidth=4
 set updatetime=10
+set path+=$GOPATH/src/**
 
+let g:gofmt_command = 'goimports'
 let g:tagbar_left = 1
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
@@ -32,4 +34,6 @@ let g:tagbar_type_go = {
     \ 'ctagsargs' : '-sort -silent'
 \ }
 
-autocmd VimEnter * nested :TagbarOpen
+au VimEnter * nested :TagbarOpen
+au BufWritePre *.go Fmt
+au FileType go compiler go
