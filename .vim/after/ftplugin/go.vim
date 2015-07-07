@@ -5,6 +5,9 @@ set updatetime=10
 set path+=$GOPATH/src/**
 
 let g:gofmt_command = 'goimports'
+let g:syntastic_mode_map = { 'mode': 'passive',
+    \ 'active_filetypes': ['go'] }
+let g:syntastic_go_checkers = ['go', 'golint']
 let g:tagbar_left = 1
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
