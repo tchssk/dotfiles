@@ -40,6 +40,7 @@ set lines=48			" 高さ
 ""elseif has('macvim')
 ""  set transparency=10
 ""endif
+au GUIEnter * set fullscreen
 
 
 " ------------------------------------------------
