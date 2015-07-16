@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd `dirname $0`
+pushd `dirname $0`
 
 # Dotfiles
 for dotfile in .?*
@@ -10,6 +10,8 @@ do
     ln -Fs "$PWD/$dotfile" $HOME
   fi
 done
+
+popd
 
 # Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -23,8 +25,9 @@ git submodule update
 # tmux
 if [ -d ~/.tmux/plugins/tpm ];
 then
-  cd ~/.tmux/plugins/tpm
+  pushd ~/.tmux/plugins/tpm
   git pull
+  popd
 else
   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
