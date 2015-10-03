@@ -36,3 +36,7 @@ if [ -z "$TMUX" -a -z "$STY" ]; then
     screen -rx || screen -D -RR
   fi
 fi
+
+# Google Cloud SDK
+test -r  $HOME/google-cloud-sdk/path.bash.inc && . $HOME/google-cloud-sdk/path.bash.inc
+test -r  $HOME/google-cloud-sdk/completion.bash.inc && . $HOME/google-cloud-sdk/completion.bash.inc
