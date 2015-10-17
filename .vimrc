@@ -1,7 +1,7 @@
 " vimrc file.
 "
 " Maintainer:	Taichi Sasaki <taichisasaki>
-" Last Change:	2013 Mar 23
+" Last Change:	2015 Oct 17
 " URL:
 "
 " This need the following files
@@ -73,7 +73,7 @@ set wrapscan			" ファイルの最後まで行ったら最初に戻る
 " ------------------------------------------------
 " 画面表示の設定 "{{{2
 " ------------------------------------------------
-set background=light		" 明るい背景を使用
+set background=dark		" 暗い背景を使用
 set cmdheight=2			" コマンドラインの高さ
 set history=200			" コマンドラインの履歴件数
 set laststatus=2		" 常にステータス行を表示
@@ -161,7 +161,7 @@ endif
 " Plugin: "{{{1
 " ---------------------------------------------------------------------
 " neobundle.vim
-if !1 | finish | endif
+if 0 | endif
 
 if has('vim_starting')
   if &compatible
