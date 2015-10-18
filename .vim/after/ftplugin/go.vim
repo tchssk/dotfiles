@@ -40,4 +40,4 @@ let g:tagbar_type_go = {
 au VimEnter * nested :TagbarOpen
 au BufWritePre *.go Fmt
 au FileType go compiler go
-au WinEnter * set winheight=999
+au WinEnter * resize
