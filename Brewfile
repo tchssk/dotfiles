@@ -1,4 +1,5 @@
 brew 'ant'
+brew 'awscli'
 brew 'brew-cask'
 brew 'ctags'
 brew 'docker'
