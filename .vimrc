@@ -1,7 +1,7 @@
 " vimrc file.
 "
 " Maintainer:	Taichi Sasaki <taichisasaki>
-" Last Change:	2015 Oct 17
+" Last Change:	2016 Feb 15
 " URL:
 "
 " This need the following files
@@ -43,6 +43,7 @@ for path in split(glob($VIM.'/plugins/*'), '\n')
 endfor
 
 set undodir=$MYVIMDIR/undo
+set directory=$MYVIMDIR/tmp
 
 
 " ------------------------------------------------

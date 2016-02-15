@@ -3,5 +3,6 @@
 .vim/backup/
 .vim/doc/
 .vim/bundle/*
+.vim/tmp/
 .vim/undo/
 !.vim/bundle/neobundle.vim
