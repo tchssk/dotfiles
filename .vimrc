@@ -204,7 +204,7 @@ call neobundle#end()
 let g:vimfiler_safe_mode_by_default = 0	" セーフモードを無効にした状態で起動する
 
 " syntastic
-let g:syntastic_check_on_open=1
+let g:syntastic_check_on_open=0
 let g:syntastic_check_on_wq=0
 
 " ---------------------------------------------------------------------
