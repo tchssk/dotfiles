@@ -1,5 +1,6 @@
 brew 'ant'
 brew 'awscli'
+brew 'awsebcli'
 brew 'ctags'
 brew 'docker'
 brew 'docker-machine'
