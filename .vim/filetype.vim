@@ -2,6 +2,9 @@ if exists("did_load_filetypes")
   finish
 endif
 augroup filetypedetect
+  " Tag file for Riot.js
+  au! BufRead,BufNewFile *.tag		setfiletype html
+
   " Tera Term Language (TTL)
   au! BufRead,BufNewFile *.ttl			setfiletype ttl
 
