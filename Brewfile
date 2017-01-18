@@ -10,7 +10,7 @@ brew 'fswatch'
 brew 'git'
 brew 'git-flow'
 brew 'go'
-brew 'graphviz'
+brew 'graphviz', args: ['with-pango']
 brew 'httpie'
 brew 'hub'
 brew 'jq'
