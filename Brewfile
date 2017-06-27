@@ -1,6 +1,7 @@
 tap 'caskroom/cask'
 tap 'caskroom/homebrew-versions'
 brew 'ant'
+brew 'amazon-ecs-cli'
 brew 'awscli'
 brew 'awsebcli'
 brew 'ctags'
