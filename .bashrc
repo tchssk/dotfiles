@@ -41,3 +41,6 @@ fi
 # Google Cloud SDK
 test -r  $HOME/google-cloud-sdk/path.bash.inc && . $HOME/google-cloud-sdk/path.bash.inc
 test -r  $HOME/google-cloud-sdk/completion.bash.inc && . $HOME/google-cloud-sdk/completion.bash.inc
+
+# direnv
+eval "$(direnv hook bash)"
