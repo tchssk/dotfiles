@@ -44,3 +44,6 @@ test -r  $HOME/google-cloud-sdk/completion.bash.inc && . $HOME/google-cloud-sdk/
 
 # direnv
 eval "$(direnv hook bash)"
+
+# nodebrew
+export PATH=$HOME/.nodebrew/current/bin:$PATH
