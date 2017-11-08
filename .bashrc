@@ -14,6 +14,7 @@ export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 
 # Go
 export GOPATH=~/Developer/go
+export CDPATH=.:$GOPATH/src/github.com:$GOPATH/src/golang.org:$GOPATH/src
 
 # Prompt
 export PS1='\[\033[40;0;33m\]\W/ \[\033[40;1;32m\]$(__git_ps1)\[\033[0m\] $ '
