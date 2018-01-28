@@ -37,7 +37,7 @@ let g:tagbar_type_go = {
     \ 'ctagsargs' : '-sort -silent'
 \ }
 
-au VimEnter * nested :TagbarOpen
+au VimEnter,TabNew * :TagbarOpen
 au BufWritePre *.go Fmt
 au FileType go compiler go
 au WinEnter * resize
