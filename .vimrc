@@ -144,6 +144,8 @@ endif
 " 現在開いているバッファのディレクトリを開く
 nnoremap <silent> <Leader>fe :<C-u>VimFilerBufferDir -quit<CR>
 
+nmap gs <Plug>(go-def-split)
+
 " ---------------------------------------------------------------------
 " Syntax: "{{{1
 " ---------------------------------------------------------------------
@@ -191,8 +193,13 @@ NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'nsf/gocode', {'rtp': 'vim/'}
-NeoBundle 'vim-jp/vim-go-extra'
-NeoBundle 'majutsushi/tagbar'
+NeoBundle 'fatih/vim-go', {
+\     'depends' : 'majutsushi/tagbar',
+\     'autoload' : {
+\         'filetypes' : 'go',
+\         'commands' : ['GoInstallBinaries', 'GoUpdateBinaries'],
+\     },
+\ }
 NeoBundle 'dgryski/vim-godef'
 NeoBundle 'tomasr/molokai'
 NeoBundle 'w0ng/vim-hybrid'
