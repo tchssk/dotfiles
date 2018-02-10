@@ -204,6 +204,7 @@ NeoBundle 'dgryski/vim-godef'
 NeoBundle 'tomasr/molokai'
 NeoBundle 'w0ng/vim-hybrid'
 NeoBundle 'cespare/vim-toml'
+NeoBundle 'kchmck/vim-coffee-script'
 
 call neobundle#end()
 
