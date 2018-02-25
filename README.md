@@ -1,3 +1,5 @@
+# Dotfiles
+
 ```sh
 $ cd ~
 $ git clone git@github.com:tchssk/dotfiles.git .dotfiles
