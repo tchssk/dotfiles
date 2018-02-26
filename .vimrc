@@ -125,15 +125,6 @@ imapc
 lmapc
 cmapc
 
-" 行整形
-map Q gq
-
-" 空行を削除 
-map <F1> :g/^\s*$/d<CR>
-
-" コメント行を削除
-map <F4> :g/\*\\|\/\//d<CR>
-
 " 現在のバッファを、読み込まれた段階と比較
 if !exists(":DiffOrig")
   command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_ | diffthis
