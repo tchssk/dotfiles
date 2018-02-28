@@ -145,12 +145,6 @@ if &t_Co > 2 || has("gui_running")
   syntax on
 endif
 
-" カラースキームを読み込む
-"let g:solarized_termcolors = 256
-"let g:solarized_contrast = 'high'
-"colorscheme solarized
-
-
 " ---------------------------------------------------------------------
 " Plugin: "{{{1
 " ---------------------------------------------------------------------
