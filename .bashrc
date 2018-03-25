@@ -23,6 +23,7 @@ export PS1='\[\033[40;0;33m\]\W/ \[\033[40;1;32m\]$(__git_ps1)\[\033[0m\] $ '
 export PATH=/usr/local/sbin:$PATH
 export PATH=~/Applications/MacVim.app/Contents/MacOS:$PATH
 export PATH=$GOPATH/bin:$PATH
+export PATH=$HOME/.cargo/bin:$PATH
 export PATH=/usr/local/share/git-core/contrib/diff-highlight:$PATH
 
 # tmux
