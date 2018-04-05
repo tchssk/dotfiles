@@ -190,6 +190,7 @@ NeoBundle 'tomasr/molokai'
 NeoBundle 'w0ng/vim-hybrid'
 NeoBundle 'cespare/vim-toml'
 NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'rust-lang/rust.vim'
 
 call neobundle#end()
 
