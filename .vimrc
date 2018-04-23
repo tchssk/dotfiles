@@ -1,16 +1,7 @@
 " vimrc file.
 "
-" Maintainer:	Taichi Sasaki <taichisasaki>
-" Last Change:	2016 Feb 15
-" URL:
-"
-" This need the following files
-"   colors/solarized.vim
-"   plugin/matchit.vim
-"   plugin/unite.vim
-"   plugin/vimfiler.vim
-"
-" For OS X and Windows only
+" Maintainer:	Taichi Sasaki <tchsskk@gmail.com>
+" Last Change:	2018 Apr 24
 
 
 " ---------------------------------------------------------------------
@@ -96,8 +87,8 @@ set wildmenu			" コマンドライン補完に拡張モードを使用
 " ------------------------------------------------
 set expandtab			" タブをスペースに展開
 set shiftwidth=2		" 自動インデントの幅
-set softtabstop=2		" タブの画面上での幅
-set tabstop=2			" タブの画面上での幅
+set softtabstop=4		" タブの画面上での幅
+set tabstop=4			" タブの画面上での幅
 
 " ------------------------------------------------
 " インデントの設定 "{{{2
