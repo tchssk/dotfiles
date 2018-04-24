@@ -122,10 +122,6 @@ if !exists(":DiffOrig")
     \ | wincmd p | diffthis
 endif
 
-" vimfiler.vim
-" 現在開いているバッファのディレクトリを開く
-nnoremap <silent> <Leader>fe :<C-u>VimFilerBufferDir -quit<CR>
-
 nmap gs <Plug>(go-def-split)
 
 " ---------------------------------------------------------------------
@@ -163,7 +159,6 @@ NeoBundle 'Shougo/vimproc.vim', {
 \    },
 \ }
 NeoBundle 'Shougo/unite.vim'
-NeoBundle 'Shougo/vimfiler.vim'
 NeoBundle 'groenewege/vim-less'
 NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'scrooloose/syntastic'
@@ -184,9 +179,6 @@ NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'rust-lang/rust.vim'
 
 call neobundle#end()
-
-" vimfiler.vim
-let g:vimfiler_safe_mode_by_default = 0	" セーフモードを無効にした状態で起動する
 
 " syntastic
 let g:syntastic_check_on_open=0
