@@ -1,7 +1,7 @@
 " vimrc file.
 "
 " Maintainer:	Taichi Sasaki <tchsskk@gmail.com>
-" Last Change:	2018 Apr 24
+" Last Change:	2018 Apr 27
 
 
 " ---------------------------------------------------------------------
@@ -172,7 +172,6 @@ NeoBundle 'fatih/vim-go', {
 \     },
 \ }
 NeoBundle 'dgryski/vim-godef'
-NeoBundle 'tomasr/molokai'
 NeoBundle 'w0ng/vim-hybrid'
 NeoBundle 'cespare/vim-toml'
 NeoBundle 'kchmck/vim-coffee-script'
