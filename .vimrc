@@ -54,13 +54,13 @@ set formatoptions+=mM		" テキスト挿入中の自動折り返しを日本語�
 set showmatch			" 括弧入力時に対応する括弧を表示
 
 " ------------------------------------------------
-" 検索の設定 "{{{2
+" Search "{{{2
 " ------------------------------------------------
-set hlsearch			" パターンにマッチする文字列を強調表示
-set ignorecase			" 大文字と小文字を区別しない
-set incsearch			" インクリメント検索する
-set smartcase			" 混在していれば大文字小文字を区別する
-set wrapscan			" ファイルの最後まで行ったら最初に戻る
+set hlsearch
+set ignorecase
+set incsearch
+set smartcase
+set wrapscan
 
 " ------------------------------------------------
 " 画面表示の設定 "{{{2
