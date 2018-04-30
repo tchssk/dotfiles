@@ -82,12 +82,12 @@ set visualbell			" ビープを音ではなく画面に表示
 set wildmenu			" コマンドライン補完に拡張モードを使用
 
 " ------------------------------------------------
-" タブ文字の設定 "{{{2
+" Tab "{{{2
 " ------------------------------------------------
-set expandtab			" タブをスペースに展開
-set shiftwidth=2		" 自動インデントの幅
-set softtabstop=4		" タブの画面上での幅
-set tabstop=4			" タブの画面上での幅
+set expandtab
+set shiftwidth=2
+set softtabstop=4
+set tabstop=4
 
 " ------------------------------------------------
 " Indent "{{{2
