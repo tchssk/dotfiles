@@ -44,13 +44,12 @@ set backup
 set backupdir=$MYVIMDIR/backup
 
 " ------------------------------------------------
-" 編集の設定 "{{{2
+" Edit "{{{2
 " ------------------------------------------------
-set backspace=indent,		" 改行等をバックスペースで削除
-    \eol,start			
-set clipboard=unnamed		" 無名レジスタにクリップボードレジスタを使用
-set formatoptions+=mM		" テキスト挿入中の自動折り返しを日本語に対応させる
-set showmatch			" 括弧入力時に対応する括弧を表示
+set backspace=indent,eol,start
+set clipboard=unnamed
+set formatoptions+=mM
+set showmatch
 
 " ------------------------------------------------
 " Search "{{{2
