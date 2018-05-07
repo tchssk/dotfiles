@@ -61,24 +61,22 @@ set smartcase
 set wrapscan
 
 " ------------------------------------------------
-" 画面表示の設定 "{{{2
+" Display "{{{2
 " ------------------------------------------------
-set background=dark		" 暗い背景を使用
-set cmdheight=2			" コマンドラインの高さ
-set history=200			" コマンドラインの履歴件数
-set laststatus=2		" 常にステータス行を表示
-set nolist			" タブや改行を非表示
-set listchars=tab:>-,eol:$,	" listモード表示設定
-    \trail:_,extends:>,
-    \precedes:<
-set nowrap			" 長い行を折り返さない
-set number			" 行番号を表示
-set ruler			" ルーラを表示
-set showcmd			" 画面下にコマンドラインを表示
-set t_Co=256			" 256色利用可能にする
-set title			" タイトルを表示
-set visualbell			" ビープを音ではなく画面に表示
-set wildmenu			" コマンドライン補完に拡張モードを使用
+set background=dark
+set cmdheight=2
+set history=200
+set laststatus=2
+set nolist
+set listchars=tab:>-,eol:$,trail:_,extends:>,precedes:<
+set nowrap
+set number
+set ruler
+set showcmd
+set t_Co=256
+set title
+set visualbell
+set wildmenu
 
 " ------------------------------------------------
 " Tab "{{{2
