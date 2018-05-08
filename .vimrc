@@ -1,7 +1,7 @@
 " vimrc file.
 "
 " Maintainer:	Taichi Sasaki <tchsskk@gmail.com>
-" Last Change:	2018 Apr 27
+" Last Change:	2018 May 8
 
 
 " ---------------------------------------------------------------------
@@ -17,25 +17,22 @@ endif
 
 
 " ------------------------------------------------
-" 設定 "{{{2
+" General "{{{2
 " ------------------------------------------------
-set viewdir=$MYVIMDIR/view	" ビューの保存ディレクトリ
+set viewdir=$MYVIMDIR/view
 
-" Vim関連ファイルの基点ディレクトリ
 if s:is_win
   let $MYVIMDIR = expand('~/vimfiles')
 else
   let $MYVIMDIR = expand('~/.vim')
 endif
 
-" plugins下のディレクトリをruntimepathへ追加する
 for path in split(glob($VIM.'/plugins/*'), '\n')
   if isdirectory(path) | let &runtimepath = &runtimepath.','.path | end
 endfor
 
 set undodir=$MYVIMDIR/undo
 set directory=$MYVIMDIR/tmp
-
 
 " ------------------------------------------------
 " Backup "{{{2
