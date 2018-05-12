@@ -1,7 +1,7 @@
 " vimrc file.
 "
 " Maintainer:	Taichi Sasaki <tchsskk@gmail.com>
-" Last Change:	2018 May 8
+" Last Change:	2018 May 12
 
 
 " ---------------------------------------------------------------------
@@ -94,7 +94,6 @@ set diffopt=context:0
 " ---------------------------------------------------------------------
 " Map: "{{{1
 " ---------------------------------------------------------------------
-" マッピングをすべて削除
 mapc
 nmapc
 vmapc
@@ -105,7 +104,6 @@ imapc
 lmapc
 cmapc
 
-" 現在のバッファを、読み込まれた段階と比較
 if !exists(":DiffOrig")
   command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_ | diffthis
     \ | wincmd p | diffthis
