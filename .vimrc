@@ -1,7 +1,7 @@
 " vimrc file.
 "
 " Maintainer:	Taichi Sasaki <tchsskk@gmail.com>
-" Last Change:	2018 May 12
+" Last Change:	2018 May 13
 
 
 " ---------------------------------------------------------------------
@@ -114,7 +114,6 @@ nmap gs <Plug>(go-def-split)
 " ---------------------------------------------------------------------
 " Syntax: "{{{1
 " ---------------------------------------------------------------------
-" 色が使える環境なら構文ハイライトを有効化
 if &t_Co > 2 || has("gui_running")
   syntax on
 endif
@@ -173,7 +172,6 @@ let g:syntastic_check_on_wq=0
 " ---------------------------------------------------------------------
 " Filetype: "{{{1
 " ---------------------------------------------------------------------
-" ファイル形式に応じたプラグインやインデントを有効化
 filetype plugin indent on
 
 
@@ -184,13 +182,11 @@ if has("autocmd")
   augroup vimrcEx
     au!
 
-    " ファイルを開いた時に、最後に開かれていた時の行にジャンプ
     autocmd BufReadPost *
       \ if line("'\"") > 1 && line("'\"") <= line("$") |
       \   exe "normal! g`\"" |
       \ endif
 
-    " Windowを最大化
     if s:is_win
       "//au GUIEnter * simalt ~x
     endif
