@@ -7,8 +7,6 @@
 " ---------------------------------------------------------------------
 " Options: "{{{1
 " ---------------------------------------------------------------------
-let s:is_win = has('win16') || has('win32') || has('win64')
-
 if has('mouse')
   set mouse=a
 endif
@@ -18,11 +16,7 @@ endif
 " ------------------------------------------------
 set viewdir=$MYVIMDIR/view
 
-if s:is_win
-  let $MYVIMDIR = expand('~/vimfiles')
-else
-  let $MYVIMDIR = expand('~/.vim')
-endif
+let $MYVIMDIR = expand('~/.vim')
 
 for path in split(glob($VIM.'/plugins/*'), '\n')
   if isdirectory(path) | let &runtimepath = &runtimepath.','.path | end
@@ -187,9 +181,6 @@ if has("autocmd")
       \   exe "normal! g`\"" |
       \ endif
 
-    if s:is_win
-      "//au GUIEnter * simalt ~x
-    endif
   augroup END
 
 endif
