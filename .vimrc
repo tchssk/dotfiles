@@ -55,7 +55,6 @@ set background=dark
 set cmdheight=2
 set history=200
 set laststatus=2
-set nolist
 set listchars=tab:>-,eol:$,trail:_,extends:>,precedes:<
 set nowrap
 set number
