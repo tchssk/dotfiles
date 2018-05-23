@@ -46,7 +46,6 @@ set hlsearch
 set ignorecase
 set incsearch
 set smartcase
-set wrapscan
 
 " ------------------------------------------------
 " Display "{{{2
