@@ -58,7 +58,6 @@ set listchars=tab:>-,eol:$,trail:_,extends:>,precedes:<
 set nowrap
 set number
 set ruler
-set showcmd
 set t_Co=256
 set title
 set visualbell
