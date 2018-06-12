@@ -50,3 +50,6 @@ eval "$(direnv hook bash)"
 
 # nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+# rbenv
+eval "$(rbenv init -)"
