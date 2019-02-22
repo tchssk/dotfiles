@@ -14,6 +14,7 @@ brew 'erlang'
 brew 'fswatch'
 brew 'git'
 brew 'git-flow'
+brew 'gnu-sed'
 brew 'go'
 brew 'graphviz', args: ['with-pango']
 brew 'haskell-stack'
