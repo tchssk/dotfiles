@@ -20,6 +20,7 @@ brew 'graphviz', args: ['with-pango']
 brew 'haskell-stack'
 brew 'httpie'
 brew 'hub'
+brew 'hugo'
 brew 'jq'
 brew 'libav'
 brew 'maven'
