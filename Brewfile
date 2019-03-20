@@ -50,6 +50,7 @@ cask 'betterzipql'
 cask 'ccleaner'
 cask 'coccinellida'
 cask 'dash'
+cask 'dozer'
 cask 'dropbox'
 cask 'eclipse-jee'
 cask 'firefox', args: {language: 'ja'}
