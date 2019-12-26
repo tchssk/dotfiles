@@ -18,6 +18,7 @@ brew 'gnu-sed'
 brew 'go'
 brew 'graphviz', args: ['with-pango']
 brew 'haskell-stack'
+brew 'heroku/brew/heroku'
 brew 'httpie'
 brew 'hub'
 brew 'hugo'
