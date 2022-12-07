@@ -1,5 +1,5 @@
 backports.ssl-match-hostname==3.4.0.2
-certifi==2015.4.28
+certifi==2022.12.7
 circus==0.12.0
 iowait==0.2
 mercurial==4.1.3
